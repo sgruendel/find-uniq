@@ -123,4 +123,3 @@ if __name__ == "__main__":
         other_shas.update(load_hashes_set(fpath))
 
     process_primary_stream(args.primary, other_shas, args.ignore)
-
