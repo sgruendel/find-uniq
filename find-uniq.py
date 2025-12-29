@@ -16,7 +16,7 @@ Input format:
         <sha256><whitespace><path>
 
 Input can be generated with commands like:
-    - `find /some/dir -type f -exec sha256sum {} + > hashes.txt`
+    - `fd -t f . /some/dir -x sha256sum > hashes.txt`
 """
 
 import argparse
